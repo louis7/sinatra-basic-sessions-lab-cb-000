@@ -11,10 +11,12 @@ end
   end
 
   post '/checkout' do
-    @session = session
-    @item = params[:item]
-    @session[:item] = @item
+    @sessions = sessions
+    @sessions[:item] = params[:item]
+
+    erb :checkout
   end
+  
 
 
 
