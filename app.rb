@@ -16,7 +16,7 @@ end
 
     erb :checkout
   end
-  
+
 
 
 
