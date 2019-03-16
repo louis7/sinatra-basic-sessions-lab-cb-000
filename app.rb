@@ -15,7 +15,7 @@ end
     @sessions = sessions
     erb :checkout
   end
-  
+
 
   end
 end
